@@ -15,19 +15,7 @@ namespace Calc
             Console.WriteLine("Write B");
             int B = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Select operation + - * /");
-            string op = Console.ReadLine();
-
-            if (op == "+")
-                Console.WriteLine(A + B);
-            else if (op == "-")
-                Console.WriteLine(A - B);
-            else if (op == "*")
-                Console.WriteLine(A * B);
-            else if (op == "/")
-                Console.WriteLine(A / B);
-
-            Console.ReadKey();
+            
         }
     }
 }
