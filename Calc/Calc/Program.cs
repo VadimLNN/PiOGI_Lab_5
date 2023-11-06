@@ -21,6 +21,9 @@ namespace Calc
             if (op == "-")
                 Console.WriteLine(A - B);
 
+            if (op == "/")
+                Console.WriteLine(A / B);
+
             Console.ReadKey();
         }
     }
